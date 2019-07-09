@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		MultiLab
+	</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+	<h2>Welcome To MultiLab.</h2>
+	 <p>To Begin, Create and deploy a listing then build on to it as you may.</p>
+	
+	<form action = "http://127.0.0.1:8081/process_get" method = "GET">
+        First Name: <input type = "text" name = "first_name">  <br>
+        Last Name: <input type = "text" name = "last_name">
+        <input type = "submit" value = "Submit">
+    </form>
+
+    <form action = "http://127.0.0.1:8081/process_post" method = "POST">
+        First Name: <input type = "text" name = "first_name"> <br>
+        Last Name: <input type = "text" name = "last_name">
+        <input type = "submit" value = "Submit">
+    </form>
+
+	<script src="app.js"></script>
+</body>
+</html>

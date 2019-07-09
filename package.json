@@ -1,14 +1,18 @@
 {
   "name": "multilab",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web application, designed to manage tasks, and add content and increase productivity with collaboration",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Aidan Flannery",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }

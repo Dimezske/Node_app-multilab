@@ -1,0 +1,26 @@
+#### CHANGE LOG ####
+
+Steps involved in production, assemulation of the following proceedures
+---HTML5---
+	* Added index.html
+	* Header
+	* Discriptional paragraph
+	* GET Method
+	* POST method
+---Node.js----
+
+	##Express##
+		* Added app.js
+		** Serving Static path to public folder
+		* Process_get query output
+		* ListUser Display incl(Regex route)
+		* Get & post request Home Page
+		* Delete request
+		* Get requests /page
+
+		* added /addUser
+		* added /:id param
+	##JSON##
+		* Users Object with user Array
+
+
